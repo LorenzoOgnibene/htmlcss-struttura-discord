@@ -28,7 +28,8 @@
     margin-bottom: 3rem;
 }  
 
-.main-logo{
+.main-logo,
+.button-login{
     flex-basis: 25%;
     justify-content: center;
 }
@@ -37,10 +38,7 @@
     flex-basis: 50%;
 }
 
-.button-login{
-    flex-basis: 25%;
-    justify-content: center;   
-}
+
 
 .main-logo img{
     align-self: center;
@@ -95,3 +93,30 @@ button{
     margin: auto;
 
 }
+
+.big-box{
+    background-color: aquamarine;
+    margin-bottom: 3rem;
+}
+
+.footer-box{
+    padding: 0.8rem 0 1.5rem 0;
+    
+}
+.social{
+    flex-basis: 30%;
+    height: 500px;
+    background-color: cadetblue;    
+}
+
+.links{
+    flex-basis: 17.5%;
+    background-color: red;
+    border: 1px black solid;
+    
+}
+
+footer{
+    background-color: beige;
+}
+
