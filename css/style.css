@@ -14,35 +14,41 @@
     background-color: blue;
 }
 
-.flex-column{
+.flex{
     display: flex;
-    flex-direction: column;
-    
-}
-
-.flex-row{
-    display: flex;
-    justify-content: center;
-    
 }
 
 .header-logo{
-    flex-basis: 4rem;
+    height: 4rem;
     background-color: red;
-   
+}  
+
+.main-logo{
+    flex-basis: 25%;
+    justify-content: center;
 }
 
-img{
-    align-self: center;
-    width: 20%;
+.header-nav{
+    flex-basis: 50%;
 }
 
-nav{
-    align-self: center;
-    width: 40%;
-}
-
-button{
-    width: 20%;
+.button-login{
+    flex-basis: 25%;
+    justify-content: center;
     
+    
+}
+
+.main-logo img{
+    align-self: center;
+}
+
+.header-nav a{
+    margin: auto;
+}
+
+.button-login button{
+    align-self: center;
+    width: 5rem;
+    height: 2rem;
 }
