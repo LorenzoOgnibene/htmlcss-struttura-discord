@@ -5,22 +5,27 @@
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .box-logo{
     height: 30rem;
     background-color: blue;
+    margin-bottom: 3rem;
 }
 
 .flex{
     display: flex;
 }
 
+.flex-reverse{
+    flex-direction: row-reverse;
+}
 .header-logo{
     height: 4rem;
     background-color: red;
+    margin-bottom: 3rem;
 }  
 
 .main-logo{
@@ -34,9 +39,7 @@
 
 .button-login{
     flex-basis: 25%;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 
 .main-logo img{
@@ -45,10 +48,50 @@
 
 .header-nav a{
     margin: auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .button-login button{
     align-self: center;
     width: 5rem;
     height: 2rem;
+}
+
+.center-text{
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: 65%;
+    background-color: aquamarine;
+}
+
+.center-text h1{
+    align-self: center;
+}
+
+.center-text p,
+button{
+    align-self: flex-end;
+}
+
+.box{
+    margin-bottom: 10rem;
+}
+
+.img-box{
+    
+    flex-basis: 70%;
+    
+}
+
+.text-box{
+    flex-basis: 30%;
+}
+
+.img-box img{
+    margin: auto;
+
 }
